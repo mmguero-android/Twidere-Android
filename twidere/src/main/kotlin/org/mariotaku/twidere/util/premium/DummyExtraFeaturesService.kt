@@ -15,7 +15,7 @@ class DummyExtraFeaturesService : ExtraFeaturesService() {
 
     override fun isEnabled(feature: String): Boolean = false
 
-    override fun isPurchased(feature: String): Boolean = false
+    override fun isPurchased(feature: String): Boolean = true
 
     override fun destroyPurchase(): Boolean = false
 
